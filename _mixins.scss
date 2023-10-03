@@ -1,0 +1,58 @@
+@font-face {
+    font-family: Poppins;
+    src: url("./fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins-b;
+    src: url("./fonts/Poppins/Poppins-Bold.ttf");
+}
+
+
+@font-face {
+    font-family: Gilroy;
+    src: url("./fonts/Gilroy/Gilroy-ExtraBold.otf");
+}
+
+@mixin heading1() {
+
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    /* 122.222% */
+    letter-spacing: 1px;
+}
+
+
+@mixin heading2() {
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+}
+
+
+
+@mixin heading4() {
+
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+}
+
+
+@mixin heading5() {
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
